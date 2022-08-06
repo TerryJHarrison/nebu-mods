@@ -1,0 +1,1 @@
+locale("@build.mine.ivory", "Elephant Hunter's Lodge")

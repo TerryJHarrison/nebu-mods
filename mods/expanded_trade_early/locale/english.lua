@@ -1,0 +1,6 @@
+locale("@city.xtrade.hatra",			"Hatra")
+locale("@city.xtrade.isin",				"Isin")
+locale("@city.xtrade.palmyra",			"Palmyra")
+locale("@city.xtrade.washukanni",		"Washukanni")
+locale("@city.xtrade.magan",			"Magan")
+locale("@city.xtrade.eshnunna",			"Eshnunna")

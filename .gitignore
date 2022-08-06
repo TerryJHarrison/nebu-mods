@@ -1,0 +1,7 @@
+.idea/
+
+#Preview files are screenshots
+!preview.png
+
+#Exclude copyrighted content
+*.png

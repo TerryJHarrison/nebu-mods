@@ -1,0 +1,1 @@
+atom_inherit ('mn_piece.temple.xtrade.1', 'base::mn_piece.palace.library', {})
