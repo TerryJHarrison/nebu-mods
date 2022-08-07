@@ -1,5 +1,5 @@
 # nebu-mods
-Collection of mods for the game Nebuchadnezzar. 
+Collection of mods for the game [Nebuchadnezzar](https://nepos.games/nebuchadnezzar/). 
 Published mods can be found on the [Steam Workshop](https://steamcommunity.com/id/nugsynash/myworkshopfiles/?appid=1157220)
 
 - Each mod is kept in its own folder under the `mods` fodler.
