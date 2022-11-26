@@ -3,7 +3,9 @@ atom ('mod.info', {
 	description = [[
 	Adds all monument templates from campaign missions and scenarios as options for all scenario maps.
 
-	Compatible with Organized Tabs: Monuments mod - https://steamcommunity.com/sharedfiles/filedetails/?id=2814357530.
+	Compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2814357530]Organized Tabs: Monuments[/url]
+
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/all_monuments]GitHub[/url]
 
 	Mod by NugsyNash
 	]],

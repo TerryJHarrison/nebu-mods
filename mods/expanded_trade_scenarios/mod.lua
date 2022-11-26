@@ -7,6 +7,8 @@ atom ('mod.info', {
 	- Seaport off the Persian Gulf in ancient times
 	- Supports, and best played with the Granary and Granary: Raw Foods mods
 
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/expanded_trade_scenarios]GitHub[/url]
+
 	Mod by NugsyNash
 	]],
 	author = "TJ Harrison",

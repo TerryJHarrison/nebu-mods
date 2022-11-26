@@ -6,6 +6,8 @@ atom ('mod.info', {
 	Enough beauty for peasant houses to reach their max level, not enough for townsfolk without other decor.
 	See [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2832866413]Less Appealing Stone Roads[/url] for a version with less beauty appeal.
 
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/appealing_stone_roads]GitHub[/url]
+
 	Mod by NugsyNash
 	]],
 	author = "TJ Harrison",

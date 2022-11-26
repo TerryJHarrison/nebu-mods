@@ -5,6 +5,8 @@ atom ('mod.info', {
 
 	Warning: Best enabled/disabled before starting new maps - it will reset all city trade relations when loading an existing save after enabling/disabling.
 
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/expanded_trade_early]GitHub[/url]
+
 	Mod by NugsyNash
 	]],
 	author = "TJ Harrison",

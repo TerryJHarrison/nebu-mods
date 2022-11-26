@@ -1,6 +1,12 @@
 atom ('mod.info', {
 	title = "Expanded Services",
-	description = "Adds new services, along with residential requirements. \n\nMod by NugsyNash",
+	description = [[
+	Adds new services, along with residential requirements.
+
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/expanded_services]GitHub[/url]
+
+	Mod by NugsyNash
+	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
 	mod_version = "1.3.0",

@@ -5,6 +5,8 @@ atom ('mod.info', {
 
 	Compatible with Organized Tabs and Smaller Monuments mods.
 
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/larger_monuments]GitHub[/url]
+
 	Mod by NugsyNash
 	]],
 	author = "TJ Harrison",

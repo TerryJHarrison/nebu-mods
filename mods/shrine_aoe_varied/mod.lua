@@ -6,7 +6,10 @@ atom ('mod.info', {
 	+4 for patron deity.
 	+3, +2, +1 for the other gods.
 
-	Only one Shrine AoE mod can be used at one time, the one higher in the Active Mods list of the Mod Manager will take precedence.
+	Only one [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2817224323]Shrine AoE[/url] mod can be used at a time.
+	The one higher in the Active Mods list of the Mod Manager will take precedence if multiple are loaded.
+
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/shrine_aoe_plus_varied]GitHub[/url]
 
 	Mod by NugsyNash
 	]],

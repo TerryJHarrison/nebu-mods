@@ -3,6 +3,8 @@ atom ('mod.info', {
 	description = [[
 	Splits service buildings into three tabs organized by service worker type. Market buildings are included on the tabs for the residents they serve.
 
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/organized_tabs_services]GitHub[/url]
+
 	Mod by NugsyNash
 	]],
 	author = "TJ Harrison",

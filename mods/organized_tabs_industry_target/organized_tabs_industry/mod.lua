@@ -4,7 +4,7 @@ atom ('mod.info', {
 	Splits industry buildings into three tabs organized by the class of resident they serve.
 	Buildings involved in the chain of multiple goods that serve different classes will be included with the first class that they serve.
 
-	See https://steamcommunity.com/sharedfiles/filedetails/?id=2812743238 to sort the new tabs by worker class instead (only one Organized Tabs: Industry mod should be enabled).
+	See [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2812743238]Organized Tabs: Industry (by worker)[/url] to sort the new tabs by worker class instead (only one Organized Tabs: Industry mod should be enabled).
 
 	This mod is made with others in mind. It will set the following variables in all build_*.lua files and the menu.lua file to be used by other mods:
 	is_industry_organized = true
@@ -14,6 +14,8 @@ atom ('mod.info', {
 	organized_tabs_industry::menu.sub.industry.1
 	organized_tabs_industry::menu.sub.industry.2
 	organized_tabs_industry::menu.sub.industry.3
+
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/organized_tabs_industry_target]GitHub[/url]
 
 	Mod by NugsyNash
 	]],

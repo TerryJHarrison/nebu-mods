@@ -9,6 +9,8 @@ atom ('mod.info', {
 	Compatible with the Granary mod by XYZ - URL
 	Compatible with the Organized Tabs mods - URL
 
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/expanded_resources_dyes]GitHub[/url]
+
 	Mod by NugsyNash
 	]],
 	author = "",

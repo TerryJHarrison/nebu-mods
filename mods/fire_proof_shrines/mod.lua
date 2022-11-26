@@ -4,6 +4,8 @@ atom ('mod.info', {
 	Makes all shrines immune to fire risk.
 	Affects campaign and scenario maps.
 
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/fire_proof_shrines]GitHub[/url]
+
 	Mod by NugsyNash
 	]],
 	author = "TJ Harrison",

@@ -2,9 +2,10 @@ atom ('mod.info', {
 	title = "Granary: Raw Foods",
 	description = [[
 	This will allow you to store wheat, grain, and grapes in the granary.
-	An add-on to the fantastic [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2797369621]Granary mod by Viriathus[/url].
+	An add-on to the fantastic [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2797369621]Granary[/url] mod by Viriathus, which should be loaded first.
+	See images for mod load order.
 
-	Granary mod required. This mod should be loaded above the Granary mod in the Active Mods pane of Mod Manager.
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/granary_raw_foods]GitHub[/url]
 
 	Mod by NugsyNash
 	]],

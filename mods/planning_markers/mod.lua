@@ -5,6 +5,8 @@ atom ('mod.info', {
 	Lay out the design of your city without needing to spend any money.
 	All marker colors can be customized.
 
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/planning_markers]GitHub[/url]
+
 	Mod by NugsyNash
 	]],
 	author = "TJ Harrison",

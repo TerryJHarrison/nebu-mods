@@ -1,7 +1,7 @@
 atom ('mod.info', {
 	title = "",
 	description = [[
-
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/expanded_trade_caravans]GitHub[/url]
 
 	Mod by NugsyNash
 	]],

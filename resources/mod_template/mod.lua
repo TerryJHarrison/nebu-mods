@@ -2,6 +2,7 @@ atom ('mod.info', {
 	title = "",
 	description = [[
 
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/MOD_FOLDER_NAME_HERE]GitHub[/url]
 
 	Mod by NugsyNash
 	]],

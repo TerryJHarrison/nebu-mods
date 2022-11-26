@@ -3,10 +3,12 @@ atom ('mod.info', {
 	description = [[
 	Splits monuments into three tabs organized by monument type.
 
-	Compatible (and most useful) with the All Monuments mod - https://steamcommunity.com/sharedfiles/filedetails/?id=2814291990.
+	Compatible (and most useful) with the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2814291990]All Monuments[/url] mod.
 
 	Warning: This mod is incompatible with existing saves that have already built a monument - you will get an error upon trying to load the saved game.
 	Your saved game is safe, just disable the mod to play it again.
+
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/organized_tabs_monuments]GitHub[/url]
 
 	Mod by NugsyNash
 	]],

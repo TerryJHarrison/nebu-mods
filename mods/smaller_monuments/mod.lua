@@ -3,7 +3,10 @@ atom ('mod.info', {
 	description = [[
 	Effectively removes minimum size requirements for all custom monuments in scenarios. Minimum required space set to one square.
 
-	Mod by NugsyNash]],
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/smaller_monuments]GitHub[/url]
+
+	Mod by NugsyNash
+	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
 	mod_version = "1.3.1",

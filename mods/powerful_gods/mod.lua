@@ -3,7 +3,13 @@ atom ('mod.info', {
 	description = [[
 	Increases the power of the gods, making them impossible to ignore.
 
-	The lower two worship levels of each god will incur heavy negative penalties, while the higher two worship levels will give stronger buffs. A patron deity scorned will incur an even heavier negative penalty. Shrines will give stronger local buffs.
+	The lower two worship levels of each god will incur heavy negative penalties, while the higher two worship levels will give stronger buffs.
+	A patron deity scorned will incur an even heavier negative penalty.
+	Shrines will give stronger local buffs.
+
+	Compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2817224323]Shrine AoE[/url] mods.
+
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/powerful_gods]GitHub[/url]
 
 	Mod by NugsyNash
 	]],

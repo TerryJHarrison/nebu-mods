@@ -1,13 +1,22 @@
 atom ('mod.info', {
 	title = "Expanded Resources: Ivory Production",
-	description = "Adds a hunter's lodge under the industry tab to produce ivory.\n\nIn an effort to not break historical accuracy (or campaign game balance) this mod will not add the hunter's lodge to any of the base campaign missions or scenarios.\nTwo other mods are provided instead:\nCampaign - https://steamcommunity.com/sharedfiles/filedetails/?id=2821137318\nScenarios - https://steamcommunity.com/sharedfiles/filedetails/?id=2821137262\n\nCompatible with Organized Tabs mods\n\nMod by NugsyNash",
+	description = [[
+	Adds a hunter's lodge under the industry tab to produce ivory.
+	This only affects scenario missions - add [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2821137318]Ivory Production for Campaign Missions[/url]
+	See images for mod load order.
+
+	Compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2814758816]Organized Tabs: Industry (by target)[/url] | [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2812743238](by worker)[/url]) mods.
+
+	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/expanded_resources_ivory]GitHub[/url]
+
+	Mod by NugsyNash
+	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
-	mod_version = "1.3.0",
+	mod_version = "1.3.1",
 	game_version = "1.3.7",
 
 	-- Following lines are for external platforms (Steam) workshop mods only.
 	platform_public = true,
-	-- Do not change the following line. It's auto generated.
 	platform_id = "2821131942",
 })
