@@ -72,3 +72,26 @@ atom_property ('base::build.shop.seal', {
 atom_property ('base::build.shop.cloth', {
 	menu_parent = 'menu.sub.industry.3'
 })
+
+-- Don Core compatability
+if array_contains(atom_names, ('small_clay_pit::build.mine.clay.small')) then
+	atom_property ('small_clay_pit::build.mine.clay.small', {
+		menu_parent = 'menu.sub.industry.1'
+	})
+end
+
+if array_contains(atom_names, ('small_mines::build.mine.copper.small')) then
+	atom_property ('small_mines::build.mine.copper.small', {
+		menu_parent = 'menu.sub.industry.1'
+	})
+
+	atom_property ('small_mines::build.mine.stone.small', {
+		menu_parent = 'menu.sub.industry.1'
+	})
+
+	atom_property ('small_mines::build.mine.gold.small', {
+		menu_parent = 'menu.sub.industry.1'
+	})
+end
+
+

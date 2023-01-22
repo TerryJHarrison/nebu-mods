@@ -5,6 +5,12 @@ atom ('mod.info', {
 
 	See [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2814758816]Organized Tabs: Industry (by target)[/url] to sort the new tabs by production target class instead (only one Organized Tabs: Industry mod should be enabled).
 
+	Compatible with the following mods (see screenshots for load order):
+	[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2419805193]Small Clay Pit[/url] by Donchaffée
+	[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2454377964]Small Mines[/url] by Donchaffée
+	[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2820437947]Expanded Resources: Wood Production[/url]
+	[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2821131942]Expanded Resources: Ivory Production[/url]
+
 	This mod is made with others in mind. It will set the following variables in all build_*.lua files and the menu.lua file to be used by other mods:
 	is_industry_organized = true
 	industry_organized_by = 'worker'
@@ -20,7 +26,7 @@ atom ('mod.info', {
 	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
-	mod_version = "1.3.3",
+	mod_version = "1.3.4",
 	game_version = "1.3.7",
 
 	-- Following lines are for external platforms (Steam) workshop mods only.
