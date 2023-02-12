@@ -68,3 +68,14 @@ atom_property ('base::mn.garden.13', {
 atom_property ('base::mn.garden.sc', {
 	menu_parent = 'menu.sub.monument.3'
 })
+
+-- Sargon DLC
+if array_contains(atom_names, ('dlc_sargon::mission.sargon.1.1')) then
+	atom_property ('dlc_sargon::mn.sargon.temple', {
+		menu_parent = 'menu.sub.monument.1'
+	})
+
+	atom_property ('dlc_sargon::mn.sargon.palace', {
+		menu_parent = 'menu.sub.monument.2'
+	})
+end

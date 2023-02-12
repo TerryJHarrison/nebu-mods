@@ -1,7 +1,8 @@
 atom ('mod.info', {
 	title = "Expanded Trade: Early Options",
 	description = [[
-	Adds early-game trade opportunities to all scenarios. Prevents the need for a trade rush.
+	Adds early-game trade opportunities to all scenarios. Prevents the need for a trade rush. 
+	New cities have weak armies and no walls on warfare missions, allowing for early military conquests instead.
 
 	Warning: Best enabled/disabled before starting new maps - it will reset all city trade relations when loading an existing save after enabling/disabling.
 
@@ -11,8 +12,8 @@ atom ('mod.info', {
 	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
-	mod_version = "1.3.2",
-	game_version = "1.3.7",
+	mod_version = "1.4.0",
+	game_version = "1.4.2",
 
 	-- Following lines are for external platforms (Steam) workshop mods only.
 	platform_public = true,

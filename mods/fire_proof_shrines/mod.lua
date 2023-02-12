@@ -1,6 +1,8 @@
 atom ('mod.info', {
 	title = "Fire-proof Shrines",
 	description = [[
+	This mod is no longer maintained, its functionality is now part of the base game (>=1.4.0)
+	
 	Makes all shrines immune to fire risk.
 	Affects campaign and scenario maps.
 

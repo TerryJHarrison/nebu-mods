@@ -2,7 +2,7 @@ atom ('mod.info', {
 	title = "Expanded Resources: Olive Oil Production",
 	description = [[
 	Adds olives as a farm crop.
-	Adds an Oil press building under the industry tab that consumes olives and produces olive oil.
+	Adds an Oil press building. under the industry tab. Itconsumes olives and produces olive oil.
 
 	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/expanded_resources_olives]GitHub[/url]
 
