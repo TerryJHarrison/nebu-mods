@@ -31,3 +31,19 @@ atom ('build.planning.marker.irrigation', {
 		{'base::gf.A', 'base::gf.A'},
 	},
 })
+
+atom ('build.planning.marker.wall', {
+	menu_parent = 'menu.planning',
+	name = "@build.planning.marker.wall",
+	size = {1, 1},
+	minimap_color = "#8292b766",
+	square_path = true,
+	masque = {{"images/marker.png"}},
+	color_masques = {{{"images/layer_1.png"}}},
+	color_preset = {"#8292b766"},
+	available_colors = planning_colors,
+	grid_features = {
+		{'base::gf.A', 'base::gf.A'},
+		{'base::gf.A', 'base::gf.A'},
+	},
+})

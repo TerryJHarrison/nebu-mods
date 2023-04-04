@@ -1,0 +1,1 @@
+locale("@menu.military.industry", "Military")

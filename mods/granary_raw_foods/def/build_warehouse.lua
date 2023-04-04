@@ -7,7 +7,7 @@ atom_extend_property ('Granary::build.granary.1',
 		'base::goods_storage.wheat'
 	},
 	storage_textures_capacity_grouping = {
-		1,
+		9,
 	},
 })
 
@@ -20,7 +20,7 @@ atom_extend_property ('Granary::build.granary.2',
 		'base::goods_storage.wheat'
 	},
 	storage_textures_capacity_grouping = {
-		1,
+		9,
 	},
 })
 
@@ -33,7 +33,7 @@ atom_extend_property ('Granary::build.granary.3',
 		'base::goods_storage.wheat'
 	},
 	storage_textures_capacity_grouping = {
-		1,
+		9,
 	},
 })
 
@@ -46,7 +46,7 @@ atom_extend_property ('Granary::build.granary.4',
 		'base::goods_storage.wheat'
 	},
 	storage_textures_capacity_grouping = {
-		1,
+		9,
 	},
 })
 
@@ -59,7 +59,7 @@ atom_extend_property ('Granary::build.granary.5',
 		'base::goods_storage.wheat'
 	},
 	storage_textures_capacity_grouping = {
-		1,
+		9,
 	},
 })
 
@@ -72,7 +72,7 @@ atom_extend_property ('Granary::build.granary.6',
 		'base::goods_storage.wheat'
 	},
 	storage_textures_capacity_grouping = {
-		1,
+		9,
 	},
 })
 
@@ -87,8 +87,8 @@ atom_extend_property ('Granary::build.granary.7',
 		'base::goods_storage.barley'
 	},
 	storage_textures_capacity_grouping = {
-		1,
-		1,
+		9,
+		9,
 	},
 })
 
@@ -103,8 +103,8 @@ atom_extend_property ('Granary::build.granary.8',
 		'base::goods_storage.barley'
 	},
 	storage_textures_capacity_grouping = {
-		1,
-		1,
+		9,
+		9,
 	},
 })
 
@@ -119,8 +119,8 @@ atom_extend_property ('Granary::build.granary.9',
 		'base::goods_storage.barley'
 	},
 	storage_textures_capacity_grouping = {
-		1,
-		1,
+		9,
+		9,
 
 	},
 })
@@ -136,8 +136,8 @@ atom_extend_property ('Granary::build.granary.10',
 		'base::goods_storage.barley'
 	},
 	storage_textures_capacity_grouping = {
-		1,
-		1,
+		9,
+		9,
 	},
 })
 
@@ -154,9 +154,9 @@ atom_extend_property ('Granary::build.granary.11',
 		'base::goods_storage.flax'
 	},
 	storage_textures_capacity_grouping = {
-		1,
-		1,
-		1
+		9,
+		9,
+		9
 	},
 })
 
@@ -173,9 +173,9 @@ atom_extend_property ('Granary::build.granary.12',
 		'base::goods_storage.flax'
 	},
 	storage_textures_capacity_grouping = {
-		1,
-		1,
-		1
+		9,
+		9,
+		9
 	},
 })
 
@@ -194,9 +194,141 @@ atom_extend_property ('Granary::build.granary.13',
 		'base::goods_storage.flax'
 	},
 	storage_textures_capacity_grouping = {
-		1,
-		1,
-		1,
-		1
+		9,
+		9,
+		9,
+		9
+	},
+})
+
+atom_extend_property ('Granary::build.granary.14',
+{
+	storage_goods = {
+		'base::goods.wheat',
+		'base::goods.barley',
+		'base::goods.grapes',
+		'base::goods.flax'
+	},
+	storage_textures = {
+		'base::goods_storage.wheat',
+		'base::goods_storage.barley',
+		'base::goods_storage.grapes',
+		'base::goods_storage.flax'
+	},
+	storage_textures_capacity_grouping = {
+		9,
+		9,
+		9,
+		9
+	},
+})
+
+atom_extend_property ('Granary::build.granary.15',
+{
+	storage_goods = {
+		'base::goods.wheat',
+		'base::goods.barley',
+		'base::goods.grapes',
+		'base::goods.flax'
+	},
+	storage_textures = {
+		'base::goods_storage.wheat',
+		'base::goods_storage.barley',
+		'base::goods_storage.grapes',
+		'base::goods_storage.flax'
+	},
+	storage_textures_capacity_grouping = {
+		9,
+		9,
+		9,
+		9
+	},
+})
+
+atom_extend_property ('Granary::build.granary.16',
+{
+	storage_goods = {
+		'base::goods.wheat',
+		'base::goods.barley',
+		'base::goods.grapes',
+		'base::goods.flax'
+	},
+	storage_textures = {
+		'base::goods_storage.wheat',
+		'base::goods_storage.barley',
+		'base::goods_storage.grapes',
+		'base::goods_storage.flax'
+	},
+	storage_textures_capacity_grouping = {
+		9,
+		9,
+		9,
+		9
+	},
+})
+
+atom_extend_property ('Granary::build.granary.17',
+{
+	storage_goods = {
+		'base::goods.wheat',
+		'base::goods.barley',
+		'base::goods.grapes',
+		'base::goods.flax'
+	},
+	storage_textures = {
+		'base::goods_storage.wheat',
+		'base::goods_storage.barley',
+		'base::goods_storage.grapes',
+		'base::goods_storage.flax'
+	},
+	storage_textures_capacity_grouping = {
+		9,
+		9,
+		9,
+		9
+	},
+})
+
+atom_extend_property ('Granary::build.granary.sc',
+{
+	storage_goods = {
+		'base::goods.wheat',
+		'base::goods.barley',
+		'base::goods.grapes',
+		'base::goods.flax'
+	},
+	storage_textures = {
+		'base::goods_storage.wheat',
+		'base::goods_storage.barley',
+		'base::goods_storage.grapes',
+		'base::goods_storage.flax'
+	},
+	storage_textures_capacity_grouping = {
+		9,
+		9,
+		9,
+		9
+	},
+})
+
+atom_extend_property ('Granary::build.granary.sc_w',
+{
+	storage_goods = {
+		'base::goods.wheat',
+		'base::goods.barley',
+		'base::goods.grapes',
+		'base::goods.flax'
+	},
+	storage_textures = {
+		'base::goods_storage.wheat',
+		'base::goods_storage.barley',
+		'base::goods_storage.grapes',
+		'base::goods_storage.flax'
+	},
+	storage_textures_capacity_grouping = {
+		9,
+		9,
+		9,
+		9
 	},
 })

@@ -87,3 +87,15 @@ atom ('build.planning.marker.monuments', {
 	color_preset = {"#55555566"},
 	available_colors = planning_colors
 })
+
+atom ('build.planning.marker.warfare', {
+	menu_parent = 'menu.planning',
+	name = "@build.planning.marker.warfare",
+	size = {1, 1},
+	minimap_color = "#e1a99666",
+	masque = {{"images/marker.png"}},
+	base_masque = {{"images/marker.png"}},
+	color_masques = {{{"images/layer_1.png"}}},
+	color_preset = {"#e1a99666"},
+	available_colors = planning_colors
+})

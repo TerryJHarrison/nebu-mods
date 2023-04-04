@@ -5,7 +5,7 @@ atom ('mod.info', {
 	This only affects scenario missions - add [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2821137318]Ivory Production for Campaign Missions[/url]
 	See images for mod load order.
 
-	Compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2814758816]Organized Tabs: Industry (by target)[/url] | [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2812743238](by worker)[/url]) mods.
+	Compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2814758816]Organized Industry Menu (by target)[/url] | [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2812743238](by worker)[/url]) mods.
 
 	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/expanded_resources_ivory]GitHub[/url]
 
@@ -13,8 +13,8 @@ atom ('mod.info', {
 	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
-	mod_version = "1.4.0",
-	game_version = "1.4.0",
+	mod_version = "1.4.2",
+	game_version = "1.4.10",
 
 	-- Following lines are for external platforms (Steam) workshop mods only.
 	platform_public = true,

@@ -67,10 +67,6 @@ atom ('city.sc.2.xtrade.1', trade_city_base, {
 
 atom ('city.sc.2.xtrade.2', trade_city_base, {
 	name			= "@city.xtrade.isin",
-	position		= {255, 222},
-	label_position	= {0, 0},
-	label_alignment	= {-1, 0},
-	control_point	= {255, 212},
 	god 			= 'base::god.sin.babylonian',
 
 	export_goods		= {'base::goods.bread', 'base::goods.stone'},
@@ -106,10 +102,6 @@ atom ('city.sc.3.xtrade.1', trade_city_base, {
 
 atom ('city.sc.3.xtrade.2', trade_city_base, {
 	name			= "@city.xtrade.washukanni",
-	position		= {225, 128},
-	label_position	= {0, 0},
-	label_alignment	= {0, -1},
-	control_point	= {257, 192},
 	god 			= 'base::god.mullisu.assyrian',
 
 	export_goods		= {'base::goods.ceramic', 'base::goods.stone'},

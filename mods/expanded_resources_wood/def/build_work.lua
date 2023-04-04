@@ -1,12 +1,11 @@
 menu_parent = 'base::menu.industry'
-if is_industry_organized then
-	if industry_organized_by == 'worker' then
-		menu_parent = 'organized_tabs_industry::menu.sub.industry.1'
-	else 
-		if industry_organized_by == 'target' then 
-			menu_parent = 'organized_tabs_industry::menu.sub.industry.2'
-		end
-	end
+
+if array_contains(active_game_mods(), 'organized_industry_worker') then
+	menu_parent = 'organized_industry_worker::menu.sub.industry.peasant'
+end
+
+if array_contains(active_game_mods(), 'organized_industry_target') then
+	menu_parent = 'organized_industry_target::menu.sub.industry.aristocrat'
 end
 
 atom ('build.farm.logger', {

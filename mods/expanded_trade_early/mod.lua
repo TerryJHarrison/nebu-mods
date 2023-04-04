@@ -12,7 +12,7 @@ atom ('mod.info', {
 	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
-	mod_version = "1.4.0",
+	mod_version = "1.4.1",
 	game_version = "1.4.2",
 
 	-- Following lines are for external platforms (Steam) workshop mods only.

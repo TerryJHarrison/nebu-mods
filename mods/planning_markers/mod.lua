@@ -1,7 +1,7 @@
 atom ('mod.info', {
 	title = "Planning Markers",
 	description = [[
-	Adds a new planning tab with transparent markers for roads, irrigation, and various building types.
+	Adds a new planning tab under the infrastructure menu with transparent markers for roads, walls, irrigation, and various building types.
 	Lay out the design of your city without needing to spend any money.
 	All marker colors can be customized.
 
@@ -11,8 +11,8 @@ atom ('mod.info', {
 	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
-	mod_version = "1.4.1",
-	game_version = "1.4.0",
+	mod_version = "1.4.4",
+	game_version = "1.4.10",
 
 	-- Following lines are for external platforms (Steam) workshop mods only.
 	platform_public = true,

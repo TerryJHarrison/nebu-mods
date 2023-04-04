@@ -1,6 +1,7 @@
 planning_markers = {
 	'build.planning.marker.road',
 	'build.planning.marker.irrigation',
+	'build.planning.marker.wall',
 	'build.planning.marker.house',
 	'build.planning.marker.agriculture',
 	'build.planning.marker.industry',
@@ -10,177 +11,90 @@ planning_markers = {
 	'build.planning.marker.monuments'
 }
 
--- Scenarios
-atom_extend_property ('base::mission.sc.1', {
-	allowed_buildings = planning_markers
+warfare_planning_markers =  ac(planning_markers, {
+	'build.planning.marker.warfare'
 })
 
-atom_extend_property ('base::mission.sc.2', {
-	allowed_buildings = planning_markers
-})
+--TODO: break campaign missions up so only correct markers show up
 
-atom_extend_property ('base::mission.sc.3', {
-	allowed_buildings = planning_markers
-})
+-- Campaign and Scenario missions
+peace_missions = {
+	'base::mission.sc.1',
+	'base::mission.sc.2',
+	'base::mission.sc.3',
+	'base::mission.sc.4',
+	'base::mission.sc.5',
+	'base::mission.sc.11',
+	'base::mission.sc.12',
+	'base::mission.sc.13',
+	'base::mission.nz.1',
+	'base::mission.nz.2',
+	'base::mission.nz.3',
+	'base::mission.nz.4',
+	'base::mission.nz.5',
+	'base::mission.nz.6',
+	'base::mission.nz.7',
+	'base::mission.nz.8',
+	'base::mission.nz.9',
+	'base::mission.nz.10',
+	'base::mission.nz.11',
+	'base::mission.nz.12',
+	'base::mission.nz.13',
+}
 
-atom_extend_property ('base::mission.sc.4', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.sc.5', {
-	allowed_buildings = planning_markers
-})
-
--- Warfare Scenarios
-atom_extend_property ('base::mission.sc.6', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.sc.7', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.sc.8', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.sc.9', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.sc.10', {
-	allowed_buildings = planning_markers
-})
-
--- Campaign missions
-atom_extend_property ('base::mission.nz.1', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.2', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.3', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.4', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.5', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.6', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.7', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.8', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.9', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.10', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.11', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.12', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.13', {
-	allowed_buildings = planning_markers
-})
-
--- Warfare missions
-atom_extend_property ('base::mission.nz.14', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.15', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.16', {
-	allowed_buildings = planning_markers
-})
-
-atom_extend_property ('base::mission.nz.17', {
-	allowed_buildings = planning_markers
-})
+war_missions = {
+	'base::mission.sc.6',
+	'base::mission.sc.7',
+	'base::mission.sc.8',
+	'base::mission.sc.9',
+	'base::mission.sc.10',
+	'base::mission.sc.14',
+	'base::mission.sc.15',
+	'base::mission.sc.16',
+	'base::mission.nz.14',
+	'base::mission.nz.15',
+	'base::mission.nz.16',
+	'base::mission.nz.17',
+}
 
 -- Sargon DLC
-if array_contains(atom_names, ('dlc_sargon::mission.sargon.1.1')) then
-	atom_extend_property ('dlc_sargon::mission.sargon.1.1', {
-		allowed_buildings = planning_markers
-	})
+if array_contains(loaded_atom_names(), 'dlc_sargon::mission.sargon.1.1') then
+	sargon_missions = {
+		'dlc_sargon::mission.sargon.1.1',
+		'dlc_sargon::mission.sargon.1.2',
+		'dlc_sargon::mission.sargon.1.3',
+		'dlc_sargon::mission.sargon.2.1',
+		'dlc_sargon::mission.sargon.2.2',
+		'dlc_sargon::mission.sargon.2.3',
+		'dlc_sargon::mission.sargon.2.4',
+		'dlc_sargon::mission.sargon.3.1',
+		'dlc_sargon::mission.sargon.3.2',
+		'dlc_sargon::mission.sargon.3.3',
+		'dlc_sargon::mission.sargon.3.4',
+		'dlc_sargon::mission.sargon.4.1',
+		'dlc_sargon::mission.sargon.4.2',
+		'dlc_sargon::mission.sargon.4.3',
+		'dlc_sargon::mission.sargon.4.4',
+	}
 	
-	atom_extend_property ('dlc_sargon::mission.sargon.1.2', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.1.3', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.2.1', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.2.2', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.2.3', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.2.4', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.3.1', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.3.2', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.3.3', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.3.4', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.4.1', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.4.2', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.4.3', {
-		allowed_buildings = planning_markers
-	})
-	
-	atom_extend_property ('dlc_sargon::mission.sargon.4.4', {
-		allowed_buildings = planning_markers
-	})
+	for k, v in pairs(sargon_missions) do
+		table.insert(war_missions, v)
+	end
+end
+
+-- Map Packs
+if array_contains(loaded_atom_names(), 'map_pack_campaign::mission.nz.sc.13') then
+	table.insert(peace_missions, 'map_pack_campaign::mission.nz.sc.12')
+	table.insert(war_missions, 'map_pack_campaign::mission.nz.sc.12w')
+	table.insert(peace_missions, 'map_pack_campaign::mission.nz.sc.13')
+	table.insert(war_missions, 'map_pack_campaign::mission.nz.sc.13w')
+end
+
+-- Add to missions
+for k, v in pairs(peace_missions) do
+	atom_extend_property(v, {allowed_buildings = planning_markers})
+end
+
+for k, v in pairs(war_missions) do
+	atom_extend_property(v, {allowed_buildings = warfare_planning_markers})
 end
