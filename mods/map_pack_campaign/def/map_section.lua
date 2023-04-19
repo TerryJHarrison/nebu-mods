@@ -1,3 +1,4 @@
+-- Campaign level 13
 atom('map_section.nz.sc.13', {
 	map = "images/map_zoom.png",
 	cities = {
@@ -156,3 +157,202 @@ atom('map_section.nz.sc.13w', {
 	top_left = {150, 90},
 	bottom_right = {320, 240},
 })
+
+-- Sargon DLC campaign
+if array_contains(active_game_mods(), 'dlc_sargon') then
+	--Sargon level 1
+	atom_inherit('map_section.sargon.sc.1.section0', 'dlc_sargon::map_section.sargon.1.3.section0', {
+		cities = {
+			'dlc_sargon::city.sargon.1.home',
+			'city.sargon.sc.1.babylon',
+			'city.sargon.sc.1.der',
+			'city.sargon.sc.1.nimrud',
+			'city.sargon.sc.1.nineveh',
+			'city.sargon.sc.1.memphis',
+			'city.sargon.sc.1.qift',
+			'city.sargon.sc.1.ecbatana',
+			'city.sargon.sc.1.magan',
+			'city.sargon.sc.1.hama',
+			'city.sargon.sc.1.arpad',
+			'city.sargon.sc.1.damascus',
+			'city.sargon.sc.1.sumur',
+			'city.sargon.sc.1.qarqar',
+			'city.sargon.sc.1.gaza',
+			'city.sargon.sc.1.rafah',
+			'city.sargon.sc.1.gibeon',
+		},
+	})
+	
+	atom_inherit('map_section.sargon.sc.1w.section0', 'map_section.sargon.sc.1.section0', {
+		cities = {
+			'dlc_sargon::city.sargon.1.home',
+			'city.sargon.sc.1w.babylon',
+			'city.sargon.sc.1w.der',
+			'city.sargon.sc.1w.nimrud',
+			'city.sargon.sc.1w.nineveh',
+			'city.sargon.sc.1w.memphis',
+			'city.sargon.sc.1w.qift',
+			'city.sargon.sc.1w.ecbatana',
+			'city.sargon.sc.1w.magan',
+			'city.sargon.sc.1w.hama',
+			'city.sargon.sc.1w.arpad',
+			'city.sargon.sc.1w.damascus',
+			'city.sargon.sc.1w.sumur',
+			'city.sargon.sc.1w.qarqar',
+			'city.sargon.sc.1w.gaza',
+			'city.sargon.sc.1w.rafah',
+			'city.sargon.sc.1w.gibeon',
+		},
+	})
+	
+	--Sargon level 2
+	atom_inherit('map_section.sargon.sc.2.section0', 'dlc_sargon::map_section.sargon.2.4.section0', {
+		cities = {
+			'dlc_sargon::city.sargon.2.home',
+			'city.sargon.sc.2.hasanlu',
+			'city.sargon.sc.2.izirtu',
+			'city.sargon.sc.2.miandoab',
+			'city.sargon.sc.2.saraba',
+			'city.sargon.sc.2.assur',
+			'city.sargon.sc.2.nimrud',
+			'city.sargon.sc.2.corinth',
+			'city.sargon.sc.2.salamis',
+			'city.sargon.sc.2.babylon',
+			'city.sargon.sc.2.nippur',
+			'city.sargon.sc.2.marhashi',
+			'city.sargon.sc.2.tanis',
+			'city.sargon.sc.2.heracleopolis_magna',
+			'city.sargon.sc.2.tabal',
+			'city.sargon.sc.2.quwe',
+			'city.sargon.sc.2.carchemish',
+			'city.sargon.sc.2.til_barsip',
+		},
+	})
+	
+	atom_inherit('map_section.sargon.sc.2w.section0', 'map_section.sargon.sc.2.section0', {
+		cities = {
+			'dlc_sargon::city.sargon.2.home',
+			'city.sargon.sc.2w.hasanlu',
+			'city.sargon.sc.2w.izirtu',
+			'city.sargon.sc.2w.miandoab',
+			'city.sargon.sc.2w.saraba',
+			'city.sargon.sc.2w.assur',
+			'city.sargon.sc.2w.nimrud',
+			'city.sargon.sc.2w.corinth',
+			'city.sargon.sc.2w.salamis',
+			'city.sargon.sc.2w.babylon',
+			'city.sargon.sc.2w.nippur',
+			'city.sargon.sc.2w.marhashi',
+			'city.sargon.sc.2w.tanis',
+			'city.sargon.sc.2w.heracleopolis_magna',
+			'city.sargon.sc.2w.tabal',
+			'city.sargon.sc.2w.quwe',
+			'city.sargon.sc.2w.carchemish',
+			'city.sargon.sc.2w.til_barsip',
+		},
+	})
+	
+	--Sargon level 3
+	atom_inherit('map_section.sargon.sc.3.section0', 'dlc_sargon::map_section.sargon.3.4.section0', {
+		cities = {
+			'dlc_sargon::city.sargon.3.home',
+			'city.sargon.sc.3.thebes',
+			'city.sargon.sc.3.memphis',
+			'city.sargon.sc.3.sais',
+			'city.sargon.sc.3.magan',
+			'city.sargon.sc.3.liblium',
+			'city.sargon.sc.3.tarmakish',
+			'city.sargon.sc.3.miandoab',
+			'city.sargon.sc.3.saraba',
+			'city.sargon.sc.3.quwe',
+			'city.sargon.sc.3.adana',
+			'city.sargon.sc.3.karatepe',
+			'city.sargon.sc.3.gilzanu',
+			'city.sargon.sc.3.gerdesorah',
+			'city.sargon.sc.3.musasir',
+			'city.sargon.sc.3.qallania',
+			'city.sargon.sc.3.sippar',
+			'city.sargon.sc.3.akkad',
+			'city.sargon.sc.3.dur_kurigalzu',
+			'city.sargon.sc.3.dur_abi_hara',
+			'city.sargon.sc.3.babylon',
+		},
+	})
+	
+	atom_inherit('map_section.sargon.sc.3w.section0', 'map_section.sargon.sc.3.section0', {
+		cities = {
+			'dlc_sargon::city.sargon.3.home',
+			'city.sargon.sc.3w.thebes',
+			'city.sargon.sc.3w.memphis',
+			'city.sargon.sc.3w.sais',
+			'city.sargon.sc.3w.magan',
+			'city.sargon.sc.3w.liblium',
+			'city.sargon.sc.3w.tarmakish',
+			'city.sargon.sc.3w.miandoab',
+			'city.sargon.sc.3w.saraba',
+			'city.sargon.sc.3w.quwe',
+			'city.sargon.sc.3w.adana',
+			'city.sargon.sc.3w.karatepe',
+			'city.sargon.sc.3w.gilzanu',
+			'city.sargon.sc.3w.gerdesorah',
+			'city.sargon.sc.3w.musasir',
+			'city.sargon.sc.3w.qallania',
+			'city.sargon.sc.3w.sippar',
+			'city.sargon.sc.3w.akkad',
+			'city.sargon.sc.3w.dur_kurigalzu',
+			'city.sargon.sc.3w.dur_abi_hara',
+			'city.sargon.sc.3w.babylon',
+		},
+	})
+	
+	--Sargon level 4
+	atom_inherit('map_section.sargon.sc.4.section0', 'dlc_sargon::map_section.sargon.4.4.section0', {
+		cities = {
+			'dlc_sargon::city.sargon.4.home',
+			'city.sargon.sc.4.kish',
+			'city.sargon.sc.4.sippar',
+			'city.sargon.sc.4.sidon',
+			'city.sargon.sc.4.tyre',
+			'city.sargon.sc.4.bubastis',
+			'city.sargon.sc.4.pelusium',
+			'city.sargon.sc.4.susa',
+			'city.sargon.sc.4.ecbatana',
+			'city.sargon.sc.4.dur_yakin',
+			'city.sargon.sc.4.nippur',
+			'city.sargon.sc.4.isin',
+			'city.sargon.sc.4.lagash',
+			'city.sargon.sc.4.salamis',
+			'city.sargon.sc.4.lapethos',
+			'city.sargon.sc.4.amathus',
+			'city.sargon.sc.4.marion',
+			'city.sargon.sc.4.tabal',
+			'city.sargon.sc.4.tuwana',
+			'city.sargon.sc.4.hupisna',
+		},
+	})
+	
+	atom_inherit('map_section.sargon.sc.4w.section0', 'map_section.sargon.sc.4.section0', {
+		cities = {
+			'dlc_sargon::city.sargon.4.home',
+			'city.sargon.sc.4w.kish',
+			'city.sargon.sc.4w.sippar',
+			'city.sargon.sc.4w.sidon',
+			'city.sargon.sc.4w.tyre',
+			'city.sargon.sc.4w.bubastis',
+			'city.sargon.sc.4w.pelusium',
+			'city.sargon.sc.4w.susa',
+			'city.sargon.sc.4w.ecbatana',
+			'city.sargon.sc.4w.dur_yakin',
+			'city.sargon.sc.4w.nippur',
+			'city.sargon.sc.4w.isin',
+			'city.sargon.sc.4w.lagash',
+			'city.sargon.sc.4w.salamis',
+			'city.sargon.sc.4w.lapethos',
+			'city.sargon.sc.4w.amathus',
+			'city.sargon.sc.4w.marion',
+			'city.sargon.sc.4w.tabal',
+			'city.sargon.sc.4w.tuwana',
+			'city.sargon.sc.4w.hupisna',
+		},
+	})
+end

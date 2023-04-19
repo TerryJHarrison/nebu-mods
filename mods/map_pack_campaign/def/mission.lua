@@ -99,3 +99,158 @@ atom('mission.nz.sc.13w', scenario_mission_base, {
 		'base::mn_template.garden.sc.5',
 	},
 })
+
+-- Sargon DLC campaign
+if array_contains(active_game_mods(), 'dlc_sargon') then
+	--Sargon Level 1
+	atom('mission.sargon.sc.1', scenario_mission_base, {
+		map = 'map.sargon.sc.1',
+		description = 'mission.description.sargon.sc.1',
+		prestige = 'base::prestige.sc',
+		risks = 'base::risks.sc',
+		allowed_buildings = ac(ac(base_buildings, peace_buildings), stone_mines),
+		allowed_monuments = {
+			'base::mn.temple.sc',
+			'base::mn.palace.sc',
+			'base::mn.garden.sc',
+		},
+		allowed_templates = {
+			'base::mn_template.temple.sc.5',
+			'base::mn_template.palace.sc.5',
+			'base::mn_template.garden.sc.5',
+		},
+		war_variant = 'mission.sargon.sc.1w',
+	})
+
+	atom('mission.sargon.sc.1w', scenario_mission_base, {
+		map = 'map.sargon.sc.1w',
+		description = 'mission.description.sargon.sc.1',
+		prestige = 'base::prestige.sc',
+		risks = 'base::risks.sc',
+		allowed_buildings = ac(ac(base_buildings, war_buildings), stone_mines),
+		allowed_monuments = {
+			'base::mn.temple.sc',
+			'base::mn.palace.sc',
+			'base::mn.garden.sc',
+		},
+		allowed_templates = {
+			'base::mn_template.temple.sc.5',
+			'base::mn_template.palace.sc.5',
+			'base::mn_template.garden.sc.5',
+		},
+	})
+	
+	--Sargon Level 2
+	atom('mission.sargon.sc.2', scenario_mission_base, {
+		map = 'map.sargon.sc.2',
+		description = 'mission.description.sargon.sc.2',
+		prestige = 'base::prestige.sc',
+		risks = 'base::risks.sc',
+		allowed_buildings = ac(ac(base_buildings, peace_buildings), copper_mines),
+		allowed_monuments = {
+			'base::mn.temple.sc',
+			'base::mn.palace.sc',
+			'base::mn.garden.sc',
+		},
+		allowed_templates = {
+			'base::mn_template.temple.sc.5',
+			'base::mn_template.palace.sc.5',
+			'base::mn_template.garden.sc.5',
+		},
+		war_variant = 'mission.sargon.sc.2w',
+	})
+
+	atom('mission.sargon.sc.2w', scenario_mission_base, {
+		map = 'map.sargon.sc.2w',
+		description = 'mission.description.sargon.sc.2',
+		prestige = 'base::prestige.sc',
+		risks = 'base::risks.sc',
+		allowed_buildings = ac(ac(base_buildings, war_buildings), copper_mines),
+		allowed_monuments = {
+			'base::mn.temple.sc',
+			'base::mn.palace.sc',
+			'base::mn.garden.sc',
+		},
+		allowed_templates = {
+			'base::mn_template.temple.sc.5',
+			'base::mn_template.palace.sc.5',
+			'base::mn_template.garden.sc.5',
+		},
+	})
+	
+	--Sargon Level 3
+	atom('mission.sargon.sc.3', scenario_mission_base, {
+		map = 'map.sargon.sc.3',
+		description = 'mission.description.sargon.sc.3',
+		prestige = 'base::prestige.sc',
+		risks = 'base::risks.sc',
+		allowed_buildings = ac(ac(base_buildings, peace_buildings), gold_mines),
+		allowed_monuments = {
+			'base::mn.temple.sc',
+			'base::mn.palace.sc',
+			'base::mn.garden.sc',
+		},
+		allowed_templates = {
+			'base::mn_template.temple.sc.5',
+			'base::mn_template.palace.sc.5',
+			'base::mn_template.garden.sc.5',
+		},
+		war_variant = 'mission.sargon.sc.3w',
+	})
+
+	atom('mission.sargon.sc.3w', scenario_mission_base, {
+		map = 'map.sargon.sc.3w',
+		description = 'mission.description.sargon.sc.3',
+		prestige = 'base::prestige.sc',
+		risks = 'base::risks.sc',
+		allowed_buildings = ac(ac(base_buildings, war_buildings), gold_mines),
+		allowed_monuments = {
+			'base::mn.temple.sc',
+			'base::mn.palace.sc',
+			'base::mn.garden.sc',
+		},
+		allowed_templates = {
+			'base::mn_template.temple.sc.5',
+			'base::mn_template.palace.sc.5',
+			'base::mn_template.garden.sc.5',
+		},
+	})
+	
+	--Sargon Level 4
+	atom('mission.sargon.sc.4', scenario_mission_base, {
+		map = 'map.sargon.sc.4',
+		description = 'mission.description.sargon.sc.4',
+		prestige = 'base::prestige.sc',
+		risks = 'base::risks.sc',
+		allowed_buildings = ac(base_buildings, peace_buildings),
+		allowed_monuments = {
+			'base::mn.temple.sc',
+			'base::mn.palace.sc',
+			'base::mn.garden.sc',
+		},
+		allowed_templates = {
+			'base::mn_template.temple.sc.5',
+			'base::mn_template.palace.sc.5',
+			'base::mn_template.garden.sc.5',
+		},
+		war_variant = 'mission.sargon.sc.4w',
+	})
+
+	atom('mission.sargon.sc.4w', scenario_mission_base, {
+		map = 'map.sargon.sc.4w',
+		description = 'mission.description.sargon.sc.4',
+		prestige = 'base::prestige.sc',
+		risks = 'base::risks.sc',
+		allowed_buildings = ac(base_buildings, war_buildings),
+		allowed_monuments = {
+			'base::mn.temple.sc',
+			'base::mn.palace.sc',
+			'base::mn.garden.sc',
+		},
+		allowed_templates = {
+			'base::mn_template.temple.sc.5',
+			'base::mn_template.palace.sc.5',
+			'base::mn_template.garden.sc.5',
+		},
+	})
+end

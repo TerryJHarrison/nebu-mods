@@ -1,12 +1,40 @@
 locale("@mission.nz.sc.freeplay", "Freeplay.")
+locale("@mission.nz.sc.freeplay.city.desc.long.1", "Empty start: Reduced hills, increased natural resources")
+locale("@mission.nz.sc.freeplay.city.desc.long.2", "Historical start: Unaltered campaign map")
 
-locale("@mission.nz.sc.13.mission", "Freeplay: Babylon (Neo-Babylonian)")
-locale("@mission.nz.sc.13.city", "Babylon")
-locale("@mission.nz.sc.13.city.desc", "Babylon was the capital of the Neo-Babylonian empire.")
-locale("@mission.nz.sc.13.city.desc.long", "Babylon, as the capital of the Neo-Babylonian empire, became the largest city of its period and some sources say its population could have exceeded 200,000. It once again rose to prominence in the 4th century BC, when it became the seat of Alexander the Great. However, the city started declining after his death.")
-
-
-locale("@mission.nz.sc.12.mission", "Freeplay: Nineveh (Neo-Assyrian)")
+locale("@mission.nz.sc.12.mission", "Freeplay: Nineveh (Neo-Assyrian, Ashurbanipal)")
 locale("@mission.nz.sc.12.city", "Nineveh")
 locale("@mission.nz.sc.12.city.desc", "Nineveh was the capital of the Neo-Assyrian Empire.")
 locale("@mission.nz.sc.12.city.desc.long", "The origins of Nineveh date back to the 6th millennium BC; its area was already permanently settled at that time. During Ashurbanipal’s rule, it became the largest city in the world, with a population of between 100,000 and 150,000.")
+locale("@mission.nz.sc.12.city.desc.level", "Campaign level 12")
+
+locale("@mission.nz.sc.13.mission", "Freeplay: Babylon (Neo-Babylonian, Nebuchadnezzar II)")
+locale("@mission.nz.sc.13.city", "Babylon")
+locale("@mission.nz.sc.13.city.desc", "Babylon was the capital of the Neo-Babylonian empire.")
+locale("@mission.nz.sc.13.city.desc.long", "Babylon, as the capital of the Neo-Babylonian empire, became the largest city of its period and some sources say its population could have exceeded 200,000. It once again rose to prominence in the 4th century BC, when it became the seat of Alexander the Great. However, the city started declining after his death.")
+locale("@mission.nz.sc.13.city.desc.level", "Campaign level 13")
+
+-- Sargon DLC campaign
+locale("@mission.sargon.sc.1.mission", "Freeplay: Assur (Neo-Assyrian, Sargon II)")
+locale("@mission.sargon.sc.1.city", "Assur")
+locale("@mission.sargon.sc.1.city.desc", "Assur was the capital of the Old Assyrian Empire.")
+locale("@mission.sargon.sc.1.city.desc.long", "Assur was the capital of the Old Assyrian Empire, the Middle Assyrian Empire, and for a time, of the Neo-Assyrian Empire.")
+locale("@mission.sargon.sc.1.city.desc.level", "Sargon levels 1-3")
+
+locale("@mission.sargon.sc.2.mission", "Freeplay: Nineveh (Neo-Assyrian, Sargon II)")
+locale("@mission.sargon.sc.2.city", "Nineveh")
+locale("@mission.sargon.sc.2.city.desc", "Nineveh was the capital of the Neo-Assyrian Empire.")
+locale("@mission.sargon.sc.2.city.desc.long", "The origins of Nineveh date back to the 6th millennium BC; its area was already permanently settled at that time. During Ashurbanipal’s rule, it became the largest city in the world, with a population of between 100,000 and 150,000.")
+locale("@mission.sargon.sc.2.city.desc.level", "Sargon levels 4-7")
+
+locale("@mission.sargon.sc.3.mission", "Freeplay: Nimrud (Neo-Assyrian, Sargon II)")
+locale("@mission.sargon.sc.3.city", "Nimrud")
+locale("@mission.sargon.sc.3.city.desc", "Nimrud was an important city of the Neo-Assyrian Empire.")
+locale("@mission.sargon.sc.3.city.desc.long", "Under Ashurnasirpal II, it became the capital and remained so until the advent of Sargon II, who moved the capital to the newly constructed city of Dur-Sharrukin.")
+locale("@mission.sargon.sc.3.city.desc.level", "Sargon levels 8-11")
+
+locale("@mission.sargon.sc.4.mission", "Freeplay: Babylon (Neo-Assyrian, Sargon II)")
+locale("@mission.sargon.sc.4.city", "Babylon")
+locale("@mission.sargon.sc.4.city.desc", "Babylon was the capital of the Neo-Babylonian empire.")
+locale("@mission.sargon.sc.4.city.desc.long", "Babylon, as the capital of the Neo-Babylonian empire, became the largest city of its period and some sources say its population could have exceeded 200,000. It once again rose to prominence in the 4th century BC, when it became the seat of Alexander the Great. However, the city started declining after his death.")
+locale("@mission.sargon.sc.4.city.desc.level", "Sargon levels 12-15")

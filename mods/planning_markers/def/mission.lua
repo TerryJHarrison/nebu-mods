@@ -58,7 +58,7 @@ war_missions = {
 }
 
 -- Sargon DLC
-if array_contains(loaded_atom_names(), 'dlc_sargon::mission.sargon.1.1') then
+if array_contains(active_game_mods(), 'dlc_sargon') then
 	sargon_missions = {
 		'dlc_sargon::mission.sargon.1.1',
 		'dlc_sargon::mission.sargon.1.2',
@@ -83,11 +83,19 @@ if array_contains(loaded_atom_names(), 'dlc_sargon::mission.sargon.1.1') then
 end
 
 -- Map Packs
-if array_contains(loaded_atom_names(), 'map_pack_campaign::mission.nz.sc.13') then
+if array_contains(active_game_mods(), 'map_pack_campaign') then
 	table.insert(peace_missions, 'map_pack_campaign::mission.nz.sc.12')
 	table.insert(war_missions, 'map_pack_campaign::mission.nz.sc.12w')
 	table.insert(peace_missions, 'map_pack_campaign::mission.nz.sc.13')
 	table.insert(war_missions, 'map_pack_campaign::mission.nz.sc.13w')
+	table.insert(peace_missions, 'map_pack_campaign::mission.sargon.sc.1')
+	table.insert(war_missions, 'map_pack_campaign::mission.sargon.sc.1w')
+	table.insert(peace_missions, 'map_pack_campaign::mission.sargon.sc.2')
+	table.insert(war_missions, 'map_pack_campaign::mission.sargon.sc.2w')
+	table.insert(peace_missions, 'map_pack_campaign::mission.sargon.sc.3')
+	table.insert(war_missions, 'map_pack_campaign::mission.sargon.sc.3w')
+	table.insert(peace_missions, 'map_pack_campaign::mission.sargon.sc.4')
+	table.insert(war_missions, 'map_pack_campaign::mission.sargon.sc.4w')
 end
 
 -- Add to missions

@@ -14,8 +14,8 @@ atom ('mod.info', {
 	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
-	mod_version = "1.4.0",
-	game_version = "1.4.10",
+	mod_version = "1.4.1",
+	game_version = "1.4.11",
 
 	-- Steam workshop mods
 	platform_public = true,

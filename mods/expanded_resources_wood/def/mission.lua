@@ -24,6 +24,14 @@ if array_contains(active_game_mods(), 'map_pack_campaign') then
 	table.insert(missions, 'map_pack_campaign::mission.nz.sc.12w')
 	table.insert(missions, 'map_pack_campaign::mission.nz.sc.13')
 	table.insert(missions, 'map_pack_campaign::mission.nz.sc.13w')
+	table.insert(missions, 'map_pack_campaign::mission.sargon.sc.1')
+	table.insert(missions, 'map_pack_campaign::mission.sargon.sc.1w')
+	table.insert(missions, 'map_pack_campaign::mission.sargon.sc.2')
+	table.insert(missions, 'map_pack_campaign::mission.sargon.sc.2w')
+	table.insert(missions, 'map_pack_campaign::mission.sargon.sc.3')
+	table.insert(missions, 'map_pack_campaign::mission.sargon.sc.3w')
+	table.insert(missions, 'map_pack_campaign::mission.sargon.sc.4')
+	table.insert(missions, 'map_pack_campaign::mission.sargon.sc.4w')
 end
 
 -- Add to map list
