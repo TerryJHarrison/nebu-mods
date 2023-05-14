@@ -82,3 +82,39 @@ if array_contains(active_game_mods(), 'viriathus_roads') then
 		atom_extend_property(v, {allowed_buildings = buildings})
 	end
 end
+
+
+-- Granary and Exchange added to new scenarios
+peace_missions = {
+	'base::mission.sc.11',
+	'base::mission.sc.13',
+	'base::mission.sc.15',
+}
+
+war_missions = {
+	'base::mission.sc.12',
+	'base::mission.sc.14',
+	'base::mission.sc.16',
+}
+
+-- Granary
+if array_contains(active_game_mods(), 'Granary') then
+	for k, v in pairs(peace_missions) do
+		atom_extend_property(v, {allowed_buildings = {'Granary::build.granary.sc'}})
+	end
+	
+	for k, v in pairs(war_missions) do
+		atom_extend_property(v, {allowed_buildings = {'Granary::build.granary.sc_w'}})
+	end
+end
+
+-- Exchange
+if array_contains(active_game_mods(), 'exchange') then
+	for k, v in pairs(peace_missions) do
+		atom_extend_property(v, {allowed_buildings = {'exchange::build.exchange.sc'}})
+	end
+	
+	for k, v in pairs(war_missions) do
+		atom_extend_property(v, {allowed_buildings = {'exchange::build.exchange.sc_w'}})
+	end
+end

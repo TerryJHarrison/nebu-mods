@@ -24,6 +24,51 @@ atom ('build.planning.marker.industry', {
 	available_colors = planning_colors
 })
 
+atom ('build.planning.marker.mine.copper', {
+	menu_parent = 'menu.planning',
+	name = "@build.planning.marker.mine.copper",
+	size = {1, 1},
+	minimap_color = "#d1d1d166",
+	masque = {{"images/marker.png"}},
+	base_masque = {{"images/marker.png"}},
+	color_masques = {{{"images/layer_1.png"}}},
+	color_preset = {"#d1d1d166"},
+	available_colors = planning_colors,
+	tile_features = {
+		{'base::gf.Cu'},
+	},
+})
+
+atom ('build.planning.marker.mine.gold', {
+	menu_parent = 'menu.planning',
+	name = "@build.planning.marker.mine.gold",
+	size = {1, 1},
+	minimap_color = "#d1d1d166",
+	masque = {{"images/marker.png"}},
+	base_masque = {{"images/marker.png"}},
+	color_masques = {{{"images/layer_1.png"}}},
+	color_preset = {"#d1d1d166"},
+	available_colors = planning_colors,
+	tile_features = {
+		{'base::gf.Au'},
+	},
+})
+
+atom ('build.planning.marker.mine.stone', {
+	menu_parent = 'menu.planning',
+	name = "@build.planning.marker.mine.stone",
+	size = {1, 1},
+	minimap_color = "#d1d1d166",
+	masque = {{"images/marker.png"}},
+	base_masque = {{"images/marker.png"}},
+	color_masques = {{{"images/layer_1.png"}}},
+	color_preset = {"#d1d1d166"},
+	available_colors = planning_colors,
+	tile_features = {
+		{'base::gf.Si'},
+	},
+})
+
 atom ('build.planning.marker.agriculture', {
 	menu_parent = 'menu.planning',
 	name = "@build.planning.marker.agriculture",
@@ -64,6 +109,18 @@ atom ('build.planning.marker.services', {
 	available_colors = planning_colors
 })
 
+atom ('build.planning.marker.religion', {
+	menu_parent = 'menu.planning',
+	name = "@build.planning.marker.religion",
+	size = {1, 1},
+	minimap_color = "#8080ff66",
+	masque = {{"images/marker.png"}},
+	base_masque = {{"images/marker.png"}},
+	color_masques = {{{"images/layer_1.png"}}},
+	color_preset = {"#8080ff66"},
+	available_colors = planning_colors,
+})
+
 atom ('build.planning.marker.risks', {
 	menu_parent = 'menu.planning',
 	name = "@build.planning.marker.risks",
@@ -92,10 +149,11 @@ atom ('build.planning.marker.warfare', {
 	menu_parent = 'menu.planning',
 	name = "@build.planning.marker.warfare",
 	size = {1, 1},
-	minimap_color = "#e1a99666",
+	minimap_color = "#ff3c6433",
 	masque = {{"images/marker.png"}},
 	base_masque = {{"images/marker.png"}},
 	color_masques = {{{"images/layer_1.png"}}},
-	color_preset = {"#e1a99666"},
+	color_preset = {"#ff3c6433"},
 	available_colors = planning_colors
 })
+
