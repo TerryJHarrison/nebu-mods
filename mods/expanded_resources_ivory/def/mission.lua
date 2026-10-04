@@ -18,6 +18,26 @@ missions = {
 	'base::mission.sc.16',
 }
 
+if array_contains(active_game_mods(), 'Emikad') then
+	table.insert(missions, 'Emikad::mission.Emikad_misja')
+end
+
+if array_contains(active_game_mods(), 'Yukel') then
+	table.insert(missions, 'Yukel::mission.DaMil')
+end
+
+if array_contains(active_game_mods(), 'city_of_ur') then
+	table.insert(missions, 'city_of_ur::mission.Ur')
+end
+
+if array_contains(active_game_mods(), 'Babylon-TheJewelOfTheEast') then
+	table.insert(missions, 'Babylon-TheJewelOfTheEast::mission.Babylon')
+end
+
+if array_contains(active_game_mods(), 'ACoE') then
+	table.insert(missions, 'ACoE::mission.Nineveh')
+end
+
 -- Map Packs
 if array_contains(active_game_mods(), 'map_pack_campaign') then
 	table.insert(missions, 'map_pack_campaign::mission.nz.sc.12')

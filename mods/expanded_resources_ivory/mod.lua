@@ -2,10 +2,21 @@ atom ('mod.info', {
 	title = "Expanded Resources: Ivory Production",
 	description = [[
 	Adds a hunter's lodge under the industry tab to produce ivory.
-	This only affects scenario missions - add [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2821137318]Ivory Production for Campaign Missions[/url]
+	This only affects scenario missions - add [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2821137318]Ivory Production for Campaign Missions[/url] support.
 	See images for mod load order.
 
-	Compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2814758816]Organized Industry Menu (by target)[/url] | [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2812743238](by worker)[/url]) mods.
+	[h2]Compatible Mods[/h2]
+	All of these should be placed below this mod.
+	[list]
+		[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2814758816]Organized Industry Menu (by target)[/url]
+		[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2812743238]Organized Industry Menu (by worker)[/url]
+		[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2939476022]Map Pack: Campaign Maps[/url]
+		[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3314428368]City of Ur[/url]
+		[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3333719571]MageBylon[/url]
+		[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3118478122]Babylon - The Jewel of the East[/url]
+		[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3001187458]Assyrian Conquest of Egypt[/url]
+		[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3708648639]Emikad[/url]
+	[/list]
 
 	Source code can be found on [url=https://github.com/TerryJHarrison/nebu-mods/tree/main/mods/expanded_resources_ivory]GitHub[/url]
 
@@ -13,7 +24,7 @@ atom ('mod.info', {
 	]],
 	author = "TJ Harrison",
 	homepage = "https://linkedin.com/in/tjharrisonjr",
-	mod_version = "1.4.3",
+	mod_version = "1.4.4",
 	game_version = "1.4.11",
 
 	-- Following lines are for external platforms (Steam) workshop mods only.
